@@ -4,11 +4,12 @@
 
   $bucle=0;
   $fila=0;
+  $division=0;
 
   $componentes=array(["elemento"=>"H", "clase"=>"otros-no-metales"],
 
   ///Estructura de la tabla, no se deben tocar las líneas debajo de este comentario
-  ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
   ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
@@ -21,7 +22,7 @@
   ["elemento"=>"Li", "clase"=>"alcalinos"],["elemento"=>"Be", "clase"=>"alcalinoterreos"],
 
   ///Estructura de la tabla, no se deben tocar las líneas debajo de este comentario
-  ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
   ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
@@ -35,7 +36,7 @@
   ["elemento"=>"Mg", "clase"=>"alcalinoterreos"],
 
    ///Estructura de la tabla, no se deben tocar las líneas debajo de este comentario
-   ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
   ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
@@ -48,9 +49,42 @@
   ["elemento"=>"Sc", "clase"=>"metales"],["elemento"=>"Ti", "clase"=>"metales"],["elemento"=>"V", "clase"=>"metales"],["elemento"=>"Cr", "clase"=>"metales"],["elemento"=>"Mn", "clase"=>"metales"],
   ["elemento"=>"Fe", "clase"=>"metales"],["elemento"=>"Co", "clase"=>"metales"],["elemento"=>"Ni", "clase"=>"metales"],["elemento"=>"Cu", "clase"=>"metales"],["elemento"=>"Zn", "clase"=>"metales"],
   ["elemento"=>"Ga", "clase"=>"otros-metales"],["elemento"=>"Ge", "clase"=>"metaloides"],["elemento"=>"As", "clase"=>"metaloides"],["elemento"=>"Se", "clase"=>"otros-no-metales"],
-  ["elemento"=>"Br", "clase"=>"halogenos"],["elemento"=>"Kr", "clase"=>"gases-nobles"],["elemento"=>"Rb", "clase"=>"alcalinos"]);
+  ["elemento"=>"Br", "clase"=>"halogenos"],["elemento"=>"Kr", "clase"=>"gases-nobles"],["elemento"=>"Rb", "clase"=>"alcalinos"],["elemento"=>"Sr", "clase"=>"alcalinoterreos"],
+  ["elemento"=>"Y", "clase"=>"metales"],["elemento"=>"Zr", "clase"=>"metales"],["elemento"=>"Nb", "clase"=>"metales"],["elemento"=>"Mo", "clase"=>"metales"],["elemento"=>"Tc", "clase"=>"metales"],
+  ["elemento"=>"Ru", "clase"=>"metales"],["elemento"=>"Rh", "clase"=>"metales"],["elemento"=>"Pd", "clase"=>"metales"],["elemento"=>"Ag", "clase"=>"metales"],["elemento"=>"Cd", "clase"=>"metales"],
+  ["elemento"=>"ln", "clase"=>"otros-metales"],["elemento"=>"Sn", "clase"=>"otros-metales"],["elemento"=>"Sb", "clase"=>"metaloides"],["elemento"=>"Te", "clase"=>"metaloides"],
+  ["elemento"=>"I", "clase"=>"halogenos"],["elemento"=>"Xe", "clase"=>"gases-nobles"],["elemento"=>"Cs", "clase"=>"alcalinos"],["elemento"=>"Ba", "clase"=>"alcalinoterreos"],["elemento"=>"La-Lu", "clase"=>"lantanidos"],
+  ["elemento"=>"Hf", "clase"=>"metales"],["elemento"=>"Ta", "clase"=>"metales"],["elemento"=>"W", "clase"=>"metales"],["elemento"=>"Re", "clase"=>"metales"],["elemento"=>"Os", "clase"=>"metales"],
+  ["elemento"=>"Ir", "clase"=>"metales"],["elemento"=>"Pt", "clase"=>"metales"],["elemento"=>"Aug", "clase"=>"metales"],["elemento"=>"Hg", "clase"=>"metales"],["elemento"=>"Tl", "clase"=>"otros-metales"],
+  ["elemento"=>"Pb", "clase"=>"otros-metales"],["elemento"=>"Bi", "clase"=>"otros-metales"],["elemento"=>"Po", "clase"=>"metaloides"],["elemento"=>"At", "clase"=>"halogenos"],["elemento"=>"Rn", "clase"=>"gases-nobles"],
+  ["elemento"=>"Fr", "clase"=>"alcalinos"],["elemento"=>"Ra", "clase"=>"alcalinoterreos"],["elemento"=>"Ac-Lr", "clase"=>"actinidos"],["elemento"=>"Rf", "clase"=>"metales"],["elemento"=>"Db", "clase"=>"metales"],
+  ["elemento"=>"Sg", "clase"=>"metales"],["elemento"=>"Bh", "clase"=>"metales"],["elemento"=>"Hs", "clase"=>"metales"],["elemento"=>"Mt", "clase"=>"metales"],["elemento"=>"Ds", "clase"=>"metales"],["elemento"=>"Rg", "clase"=>"metales"],
+  ["elemento"=>"Cn", "clase"=>"metales"],["elemento"=>"Nh", "clase"=>"otros-metales"],["elemento"=>"Fl", "clase"=>"otros-metales"],["elemento"=>"Mc", "clase"=>"otros-metales"],["elemento"=>"Lv", "clase"=>"otros-metales"],
+  ["elemento"=>"Ts", "clase"=>"halogenos"],["elemento"=>"Og", "clase"=>"gases-nobles"],
 
-  //Rb rubio por el momento
+  ///Estructura de la tabla, no se deben tocar las líneas debajo de este comentario
+  ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
+
+    ///Aquí termina la primera estructura, no se deben tocar las líneas antes de este comentario
+
+  ["elemento"=>"La", "clase"=>"lantanidos"],["elemento"=>"Ce", "clase"=>"lantanidos"],["elemento"=>"Pr", "clase"=>"lantanidos"],["elemento"=>"Nd", "clase"=>"lantanidos"],["elemento"=>"Pm", "clase"=>"lantanidos"],
+  ["elemento"=>"Sm", "clase"=>"lantanidos"],["elemento"=>"Eu", "clase"=>"lantanidos"],["elemento"=>"Gd", "clase"=>"lantanidos"],["elemento"=>"Tb", "clase"=>"lantanidos"],["elemento"=>"Dy", "clase"=>"lantanidos"],
+  ["elemento"=>"Ho", "clase"=>"lantanidos"],["elemento"=>"Er", "clase"=>"lantanidos"],["elemento"=>"Tm", "clase"=>"lantanidos"],["elemento"=>"Yb", "clase"=>"lantanidos"],["elemento"=>"Lu", "clase"=>"lantanidos"],
+
+  ///Estructura de la tabla, no se deben tocar las líneas debajo de este comentario
+  ///------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  ["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],["elemento"=>"  ", "clase"=>"celdas-vacias"],
+
+      ///Aquí termina la primera estructura, no se deben tocar las líneas antes de este comentario
+
+  ["elemento"=>"Ac", "clase"=>"actinidos"],["elemento"=>"Th", "clase"=>"actinidos"],["elemento"=>"Pa", "clase"=>"actinidos"],["elemento"=>"U", "clase"=>"actinidos"],["elemento"=>"Np", "clase"=>"actinidos"],
+  ["elemento"=>"Pu", "clase"=>"actinidos"],["elemento"=>"Am", "clase"=>"actinidos"],["elemento"=>"Cm", "clase"=>"actinidos"],["elemento"=>"Bk", "clase"=>"actinidos"],["elemento"=>"Cf", "clase"=>"actinidos"],
+  ["elemento"=>"Es", "clase"=>"actinidos"],["elemento"=>"Fm", "clase"=>"actinidos"],["elemento"=>"Md", "clase"=>"actinidos"],["elemento"=>"No", "clase"=>"actinidos"],["elemento"=>"Lr", "clase"=>"actinidos"]);
+
+  //Ho por el momento
 
 
 ?>
@@ -75,34 +109,51 @@
    <div class="col-md-8">
  <table id="tabla0">
   <tr id="tr0">
+
   <?php 
   
   foreach ($componentes as $componente) {
     if($componente["elemento"]=="") {
       echo "<td WIDTH=50 HEIGHT=50 class='vacio celdas' id='filat{$fila}'>".$componente["elemento"]."</td>";
       $bucle++;
+      $division++;
     } else if($componente["clase"]=="celdas-vacias") {
       echo "<td WIDTH=50 HEIGHT=50 class='".$componente["clase"]."' id='filat{$fila}'>".$componente["elemento"]."</td>";
       $bucle++;
+      $division++;
 
     } else {
       echo "<td WIDTH=50 HEIGHT=50 class='".$componente["clase"]." celdas' id='filat{$fila}'>".$componente["elemento"]."</td>";
       $bucle++;
+      $division++;
 
     }
     if($bucle==18) {
       echo "<tr></tr>";
       $bucle=0;
     }
-   
+    if($division==126) {
+     echo "</tr>
+     </table>
+     </div>
+     <div class='col-md-2'></div>
+     </div>
+     <br></br>
+     <div class='row'>
+     <div class='col-md-2'></div>
+     <div class='col-md-8'>
+     <table>
+     <tr>";
+    }
   }
 
 ?>
-  </tr>
-  </table>
-  </div>
-  <div class="col-md-2"></div>
- </div>
+
+</tr>
+</table>
+</div>
+<div class="col-md-2"></div>
+</div>
     
 </body>
 </html>
