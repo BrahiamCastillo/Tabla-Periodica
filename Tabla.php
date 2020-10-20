@@ -55,7 +55,7 @@
    <div class="col-md-2"></div>
    <div class="col-md-8">
  <table class="celdas" id="tabla0">
-  <tr class="celdas" id="hr0">
+  <tr class="celdas" id="tr0">
   <?php 
   
   foreach ($componentes as $componente) {
