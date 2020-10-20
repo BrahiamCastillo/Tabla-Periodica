@@ -1,0 +1,49 @@
+.celdas {
+    border-style: inset;
+    text-align: center;
+    line-height: 50px;
+}
+
+.vacio {
+    background-color: grey;
+}
+
+.alcalinos {
+    background-color: #D680FE;
+}
+
+.alcalinoterreos {
+    background-color: #DEAFF4;
+}
+
+.metales {
+    background-color: #E7B116;
+}
+
+.lantanidos {
+    background-color: #D78D29;
+}
+
+.actinidos {
+    background-color: #C76752;
+}
+
+.otros-metales {
+    background-color: #F9F60A;
+}
+
+.metaloides {
+    background-color: #CFED5E;
+}
+
+.otros-no-metales {
+    background-color: #89AF61;
+}
+
+.halogenos {
+    background-color: #8BD8C8;
+}
+
+.gases-nobles {
+    background-color: #9FD9FA;
+}
