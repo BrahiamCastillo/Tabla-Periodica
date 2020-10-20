@@ -4,6 +4,12 @@
     font-weight: bold;
 }
 
+.celdas-vacias {
+    background-color: white;
+    text-decoration-color: white;
+    border-style: none;
+}
+
 .vacio {
     background-color: gray;
 }
