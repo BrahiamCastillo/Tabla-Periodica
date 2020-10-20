@@ -1,11 +1,10 @@
 .celdas {
     border-style: inset;
     text-align: center;
-    line-height: 50px;
 }
 
 .vacio {
-    background-color: grey;
+    background-color: gray;
 }
 
 .alcalinos {
