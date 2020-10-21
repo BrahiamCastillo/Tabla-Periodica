@@ -10,6 +10,16 @@
     border-style: none;
 }
 
+.fuentes {
+    text-align: center;
+    font-weight: bold;
+}
+
+.celdas-opcion {
+    border-style: solid;
+    text-align: center;
+}
+
 .vacio {
     background-color: gray;
 }

@@ -84,8 +84,6 @@
   ["elemento"=>"Pu", "clase"=>"actinidos"],["elemento"=>"Am", "clase"=>"actinidos"],["elemento"=>"Cm", "clase"=>"actinidos"],["elemento"=>"Bk", "clase"=>"actinidos"],["elemento"=>"Cf", "clase"=>"actinidos"],
   ["elemento"=>"Es", "clase"=>"actinidos"],["elemento"=>"Fm", "clase"=>"actinidos"],["elemento"=>"Md", "clase"=>"actinidos"],["elemento"=>"No", "clase"=>"actinidos"],["elemento"=>"Lr", "clase"=>"actinidos"]);
 
-  //Ho por el momento
-
 
 ?>
 
@@ -154,6 +152,52 @@
 </div>
 <div class="col-md-2"></div>
 </div>
+<br></br>
+<div class="row">
+   <div class="col-md-2"></div>
+   <div class="col-md-8"><table>
+   <thead>
+   <th WIDTH=500 HEIGHT=25 class="vacio celdas">Metales</th>
+   <th WIDTH=150 HEIGHT=25 class="metaloides celdas"></th>
+   <th WIDTH=250 HEIGHT=25 class="vacio celdas">No Metales</th>
+   </thead>
+   <tbody>
+   </tbody>
+   </table>
+   </div>
+   <div class="col-md-2"></div>
+   </div>
+
+   <div class="row">
+   <div class="col-md-2"></div>
+   <div class="col-md-8"><table>
+     <td WIDTH=100 HEIGHT=30 class="celdas alcalinos">Alcalinos
+     </td>
+     <td WIDTH=100 HEIGHT=30 class="celdas alcalinoterreos">Alcalinoterreos
+     </td>
+     <td WIDTH=100 HEIGHT=30 class="celdas metales">Metales de transicion/ Bloque D
+     </td>
+     <td WIDTH=100 HEIGHT=50 class="celdas lantanidos">Lantanidos
+     <table>
+     <td WIDTH=100 HEIGHT=48 class="actinidos">Actinidos</td></table>
+     </td>
+     <td WIDTH=80 HEIGHT=30 class="celdas otros-metales">Otros metales
+     </td>
+     </td>
+     <td WIDTH=150 HEIGHT=30 class="metaloides celdas">Metaloides
+     </td>
+     <td WIDTH=125 HEIGHT=30 class="otros-no-metales celdas">Otros no metales
+     </td>
+     <td WIDTH=125 HEIGHT=30 class="halogenos celdas">Halógenos
+     </td>
+    </table>
+    
+    
+
+    </div>
+   <div class="col-md-2"></div>
+   </div>
+
     
 </body>
 </html>
